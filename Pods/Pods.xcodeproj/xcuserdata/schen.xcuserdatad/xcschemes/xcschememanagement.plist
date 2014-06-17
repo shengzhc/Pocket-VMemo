@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Pocket VMemo-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pocket VMemo-CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pocket VMemo-GPUImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pocket VMemo-MagicalRecord.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pocket VMemo-Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pocket VMemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>10A724AF836740A3B593B0B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D09C2E5D2D8478D869F7F52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>503418422F7C42EBA1282FF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C38F41C90204356A5A715C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A31E96A306084593AAB14E6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB653E053F5D478FAD734569</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

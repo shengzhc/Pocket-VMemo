@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		749B0E299F3E484183C92516 /* libPods-Pocket VMemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304406D523864410BF1B511D /* libPods-Pocket VMemo.a */; };
+		9C1101661950C521003E09C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1101601950C521003E09C9 /* Main.storyboard */; };
+		9C1101671950C521003E09C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1101631950C521003E09C9 /* AppDelegate.m */; };
+		9C1101681950C521003E09C9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C1101641950C521003E09C9 /* Info.plist */; };
+		9C1101691950C521003E09C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1101651950C521003E09C9 /* main.m */; };
+		9CC38EA0195007DA00616FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC38E9F195007DA00616FB2 /* Images.xcassets */; };
+		9CC38EAC195007DA00616FB2 /* Pocket_VMemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC38EAB195007DA00616FB2 /* Pocket_VMemoTests.m */; };
+		9CC38EBC1950126500616FB2 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */; };
+		9CC38EBE195012A800616FB2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */; };
+		9CC38EC0195012BA00616FB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBF195012BA00616FB2 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CC38EA6195007DA00616FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CC38E8D195007DA00616FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CC38E94195007DA00616FB2;
+			remoteInfo = "Pocket VMemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304406D523864410BF1B511D /* libPods-Pocket VMemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pocket VMemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8919E881B00247FE89EA6BA8 /* Pods-Pocket VMemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket VMemo.xcconfig"; path = "Pods/Pods-Pocket VMemo.xcconfig"; sourceTree = "<group>"; };
+		9C1101601950C521003E09C9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9C1101621950C521003E09C9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C1101631950C521003E09C9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C1101641950C521003E09C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1101651950C521003E09C9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CC38E95195007DA00616FB2 /* Pocket VMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket VMemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC38E9F195007DA00616FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CC38EA5195007DA00616FB2 /* Pocket VMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket VMemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC38EAA195007DA00616FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC38EAB195007DA00616FB2 /* Pocket_VMemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_VMemoTests.m; sourceTree = "<group>"; };
+		9CC38EBA1950126500616FB2 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
+		9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9CC38EBF195012BA00616FB2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CC38E92195007DA00616FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC38EC0195012BA00616FB2 /* Security.framework in Frameworks */,
+				9CC38EBE195012A800616FB2 /* SystemConfiguration.framework in Frameworks */,
+				9CC38EBC1950126500616FB2 /* libFlurry_5.1.0.a in Frameworks */,
+				749B0E299F3E484183C92516 /* libPods-Pocket VMemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC38EA2195007DA00616FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		855E1DD4E74E4ED786F50463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC38EBF195012BA00616FB2 /* Security.framework */,
+				9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */,
+				304406D523864410BF1B511D /* libPods-Pocket VMemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C11015F1950C521003E09C9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9C1101601950C521003E09C9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9C1101611950C521003E09C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C1101621950C521003E09C9 /* AppDelegate.h */,
+				9C1101631950C521003E09C9 /* AppDelegate.m */,
+				9C1101641950C521003E09C9 /* Info.plist */,
+				9C1101651950C521003E09C9 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CC38E8C195007DA00616FB2 = {
+			isa = PBXGroup;
+			children = (
+				9CC38EB81950124400616FB2 /* Librarys */,
+				9CC38E97195007DA00616FB2 /* Pocket VMemo */,
+				9CC38EA8195007DA00616FB2 /* Pocket VMemoTests */,
+				9CC38E96195007DA00616FB2 /* Products */,
+				8919E881B00247FE89EA6BA8 /* Pods-Pocket VMemo.xcconfig */,
+				855E1DD4E74E4ED786F50463 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CC38E96195007DA00616FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CC38E95195007DA00616FB2 /* Pocket VMemo.app */,
+				9CC38EA5195007DA00616FB2 /* Pocket VMemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
+			isa = PBXGroup;
+			children = (
+				9C11015F1950C521003E09C9 /* Storyboards */,
+				9C1101611950C521003E09C9 /* Supporting Files */,
+				9CC38E9F195007DA00616FB2 /* Images.xcassets */,
+			);
+			path = "Pocket VMemo";
+			sourceTree = "<group>";
+		};
+		9CC38EA8195007DA00616FB2 /* Pocket VMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CC38EAB195007DA00616FB2 /* Pocket_VMemoTests.m */,
+				9CC38EA9195007DA00616FB2 /* Supporting Files */,
+			);
+			path = "Pocket VMemoTests";
+			sourceTree = "<group>";
+		};
+		9CC38EA9195007DA00616FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CC38EAA195007DA00616FB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CC38EB81950124400616FB2 /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+				9CC38EB91950126500616FB2 /* Flurry */,
+			);
+			path = Librarys;
+			sourceTree = "<group>";
+		};
+		9CC38EB91950126500616FB2 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				9CC38EBA1950126500616FB2 /* Flurry.h */,
+				9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CC38E94195007DA00616FB2 /* Pocket VMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC38EAF195007DA00616FB2 /* Build configuration list for PBXNativeTarget "Pocket VMemo" */;
+			buildPhases = (
+				3A21ABECDBE240C28D4FD671 /* Check Pods Manifest.lock */,
+				9CC38E91195007DA00616FB2 /* Sources */,
+				9CC38E92195007DA00616FB2 /* Frameworks */,
+				9CC38E93195007DA00616FB2 /* Resources */,
+				29EC3611403C450B82A5ADCC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket VMemo";
+			productName = "Pocket VMemo";
+			productReference = 9CC38E95195007DA00616FB2 /* Pocket VMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CC38EA4195007DA00616FB2 /* Pocket VMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CC38EB2195007DA00616FB2 /* Build configuration list for PBXNativeTarget "Pocket VMemoTests" */;
+			buildPhases = (
+				9CC38EA1195007DA00616FB2 /* Sources */,
+				9CC38EA2195007DA00616FB2 /* Frameworks */,
+				9CC38EA3195007DA00616FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CC38EA7195007DA00616FB2 /* PBXTargetDependency */,
+			);
+			name = "Pocket VMemoTests";
+			productName = "Pocket VMemoTests";
+			productReference = 9CC38EA5195007DA00616FB2 /* Pocket VMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CC38E8D195007DA00616FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Shengzhe Chen";
+				TargetAttributes = {
+					9CC38E94195007DA00616FB2 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = YETVG3H8VD;
+					};
+					9CC38EA4195007DA00616FB2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9CC38E94195007DA00616FB2;
+					};
+				};
+			};
+			buildConfigurationList = 9CC38E90195007DA00616FB2 /* Build configuration list for PBXProject "Pocket VMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CC38E8C195007DA00616FB2;
+			productRefGroup = 9CC38E96195007DA00616FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CC38E94195007DA00616FB2 /* Pocket VMemo */,
+				9CC38EA4195007DA00616FB2 /* Pocket VMemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CC38E93195007DA00616FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC38EA0195007DA00616FB2 /* Images.xcassets in Resources */,
+				9C1101661950C521003E09C9 /* Main.storyboard in Resources */,
+				9C1101681950C521003E09C9 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC38EA3195007DA00616FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29EC3611403C450B82A5ADCC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Pocket VMemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A21ABECDBE240C28D4FD671 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CC38E91195007DA00616FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1101691950C521003E09C9 /* main.m in Sources */,
+				9C1101671950C521003E09C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC38EA1195007DA00616FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC38EAC195007DA00616FB2 /* Pocket_VMemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CC38EA7195007DA00616FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CC38E94195007DA00616FB2 /* Pocket VMemo */;
+			targetProxy = 9CC38EA6195007DA00616FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9CC38EAD195007DA00616FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CC38EAE195007DA00616FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CC38EB0195007DA00616FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8919E881B00247FE89EA6BA8 /* Pods-Pocket VMemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shengzhe Chen (S237EV664A)";
+				INFOPLIST_FILE = "Pocket VMemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/Flurry",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C69715D4-37FF-4570-9A2A-E53946058E3C";
+			};
+			name = Debug;
+		};
+		9CC38EB1195007DA00616FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8919E881B00247FE89EA6BA8 /* Pods-Pocket VMemo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shengzhe Chen (S237EV664A)";
+				INFOPLIST_FILE = "Pocket VMemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/Flurry",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C69715D4-37FF-4570-9A2A-E53946058E3C";
+			};
+			name = Release;
+		};
+		9CC38EB3195007DA00616FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket VMemo.app/Pocket VMemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pocket VMemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9CC38EB4195007DA00616FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pocket VMemo.app/Pocket VMemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pocket VMemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CC38E90195007DA00616FB2 /* Build configuration list for PBXProject "Pocket VMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC38EAD195007DA00616FB2 /* Debug */,
+				9CC38EAE195007DA00616FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC38EAF195007DA00616FB2 /* Build configuration list for PBXNativeTarget "Pocket VMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC38EB0195007DA00616FB2 /* Debug */,
+				9CC38EB1195007DA00616FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CC38EB2195007DA00616FB2 /* Build configuration list for PBXNativeTarget "Pocket VMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CC38EB3195007DA00616FB2 /* Debug */,
+				9CC38EB4195007DA00616FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CC38E8D195007DA00616FB2 /* Project object */;
+}
