@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6172.15" systemVersion="14A238x" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="VGroup" syncable="YES">
+        <attribute name="vgroupcreatedate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="vgroupdescription" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="vgrouptitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vmemos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VMemo" inverseName="vgroup" inverseEntity="VMemo" syncable="YES"/>
     </entity>
     <entity name="VMemo" syncable="YES">
         <attribute name="mcreatedate" attributeType="Date" syncable="YES"/>
@@ -15,9 +18,10 @@
         <attribute name="mtitle" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mvcpath" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mvpath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vgroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VGroup" inverseName="vmemos" inverseEntity="VGroup" syncable="YES"/>
     </entity>
     <elements>
-        <element name="VMemo" positionX="-63" positionY="-18" width="128" height="208"/>
-        <element name="VGroup" positionX="-54" positionY="72" width="128" height="60"/>
+        <element name="VMemo" positionX="-63" positionY="-18" width="128" height="223"/>
+        <element name="VGroup" positionX="-54" positionY="72" width="128" height="103"/>
     </elements>
 </model>
