@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		749B0E299F3E484183C92516 /* libPods-Pocket VMemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304406D523864410BF1B511D /* libPods-Pocket VMemo.a */; };
-		9C1101661950C521003E09C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1101601950C521003E09C9 /* Main.storyboard */; };
 		9C1101671950C521003E09C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1101631950C521003E09C9 /* AppDelegate.m */; };
-		9C1101681950C521003E09C9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C1101641950C521003E09C9 /* Info.plist */; };
 		9C1101691950C521003E09C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1101651950C521003E09C9 /* main.m */; };
+		9C865AD4195928A50030AC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C865AD3195928A50030AC72 /* Main.storyboard */; };
 		9CC38EA0195007DA00616FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC38E9F195007DA00616FB2 /* Images.xcassets */; };
 		9CC38EAC195007DA00616FB2 /* Pocket_VMemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC38EAB195007DA00616FB2 /* Pocket_VMemoTests.m */; };
 		9CC38EBC1950126500616FB2 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */; };
@@ -32,11 +31,11 @@
 /* Begin PBXFileReference section */
 		304406D523864410BF1B511D /* libPods-Pocket VMemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pocket VMemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8919E881B00247FE89EA6BA8 /* Pods-Pocket VMemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket VMemo.xcconfig"; path = "Pods/Pods-Pocket VMemo.xcconfig"; sourceTree = "<group>"; };
-		9C1101601950C521003E09C9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9C1101621950C521003E09C9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C1101631950C521003E09C9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9C1101641950C521003E09C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1101651950C521003E09C9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C865AD3195928A50030AC72 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9CC38E95195007DA00616FB2 /* Pocket VMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket VMemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC38E9F195007DA00616FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9CC38EA5195007DA00616FB2 /* Pocket VMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket VMemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,14 +79,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9C11015F1950C521003E09C9 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				9C1101601950C521003E09C9 /* Main.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
 		9C1101611950C521003E09C9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +88,14 @@
 				9C1101651950C521003E09C9 /* main.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C865AD2195928A50030AC72 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9C865AD3195928A50030AC72 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		9CC38E8C195007DA00616FB2 = {
@@ -123,7 +122,7 @@
 		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
 			isa = PBXGroup;
 			children = (
-				9C11015F1950C521003E09C9 /* Storyboards */,
+				9C865AD2195928A50030AC72 /* Storyboards */,
 				9C1101611950C521003E09C9 /* Supporting Files */,
 				9CC38E9F195007DA00616FB2 /* Images.xcassets */,
 			);
@@ -247,8 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC38EA0195007DA00616FB2 /* Images.xcassets in Resources */,
-				9C1101661950C521003E09C9 /* Main.storyboard in Resources */,
-				9C1101681950C521003E09C9 /* Info.plist in Resources */,
+				9C865AD4195928A50030AC72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,15 +405,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Shengzhe Chen (S237EV664A)";
-				INFOPLIST_FILE = "Pocket VMemo/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Pocket VMemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C69715D4-37FF-4570-9A2A-E53946058E3C";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -425,15 +424,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Shengzhe Chen (S237EV664A)";
-				INFOPLIST_FILE = "Pocket VMemo/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Pocket VMemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/Flurry",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "C69715D4-37FF-4570-9A2A-E53946058E3C";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
