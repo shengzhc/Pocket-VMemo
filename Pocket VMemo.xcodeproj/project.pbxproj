@@ -16,6 +16,7 @@
 		9CC38EBE195012A800616FB2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */; };
 		9CC38EC0195012BA00616FB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBF195012BA00616FB2 /* Security.framework */; };
 		9CD210C8195934BB00EE2CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD210C7195934BB00EE2CED /* Main.storyboard */; };
+		9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9CC38EBF195012BA00616FB2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9CD210C7195934BB00EE2CED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9CD210CB195947FA00EE2CED /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
 			isa = PBXGroup;
 			children = (
+				9CD210C9195947D800EE2CED /* CoreData */,
 				9CD210C6195934B200EE2CED /* Storyboards */,
 				9C1101611950C521003E09C9 /* Supporting Files */,
 				9CC38E9F195007DA00616FB2 /* Images.xcassets */,
@@ -161,6 +164,14 @@
 				9CD210C7195934BB00EE2CED /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9CD210C9195947D800EE2CED /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 			files = (
 				9C1101691950C521003E09C9 /* main.m in Sources */,
 				9C1101671950C521003E09C9 /* AppDelegate.m in Sources */,
+				9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +516,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CD210CB195947FA00EE2CED /* Model.xcdatamodel */,
+			);
+			currentVersion = 9CD210CB195947FA00EE2CED /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9CC38E8D195007DA00616FB2 /* Project object */;
 }
