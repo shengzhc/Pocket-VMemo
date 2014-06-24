@@ -88,13 +88,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9C865AD2195928A50030AC72 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
 		9CC38E8C195007DA00616FB2 = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +112,6 @@
 		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
 			isa = PBXGroup;
 			children = (
-				9C865AD2195928A50030AC72 /* Storyboards */,
 				9C1101611950C521003E09C9 /* Supporting Files */,
 				9CC38E9F195007DA00616FB2 /* Images.xcassets */,
 			);
