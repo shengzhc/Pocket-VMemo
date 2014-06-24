@@ -15,6 +15,7 @@
 		9CC38EBC1950126500616FB2 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */; };
 		9CC38EBE195012A800616FB2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */; };
 		9CC38EC0195012BA00616FB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBF195012BA00616FB2 /* Security.framework */; };
+		9CD210C8195934BB00EE2CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD210C7195934BB00EE2CED /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.1.0.a; sourceTree = "<group>"; };
 		9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9CC38EBF195012BA00616FB2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9CD210C7195934BB00EE2CED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
 			isa = PBXGroup;
 			children = (
+				9CD210C6195934B200EE2CED /* Storyboards */,
 				9C1101611950C521003E09C9 /* Supporting Files */,
 				9CC38E9F195007DA00616FB2 /* Images.xcassets */,
 			);
@@ -150,6 +153,14 @@
 				9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */,
 			);
 			path = Flurry;
+			sourceTree = "<group>";
+		};
+		9CD210C6195934B200EE2CED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9CD210C7195934BB00EE2CED /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC38EA0195007DA00616FB2 /* Images.xcassets in Resources */,
+				9CD210C8195934BB00EE2CED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

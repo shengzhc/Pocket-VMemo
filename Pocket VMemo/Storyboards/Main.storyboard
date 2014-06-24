@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ez7-yT-YMO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="YOh-xT-siX">
+            <objects>
+                <viewController id="ez7-yT-YMO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f8i-87-6wr"/>
+                        <viewControllerLayoutGuide type="bottom" id="vrX-QS-Dxr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W35-2c-dRF">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zay-gO-LGV">
+                                <rect key="frame" x="100" y="100" width="280" height="280"/>
+                                <color key="backgroundColor" red="1" green="0.072917261750000004" blue="0.038232028709999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zay-gO-LGV" firstAttribute="top" secondItem="W35-2c-dRF" secondAttribute="top" constant="100" id="6Xf-dx-uRx"/>
+                            <constraint firstAttribute="trailing" secondItem="Zay-gO-LGV" secondAttribute="trailing" constant="100" id="76k-Lo-WRt"/>
+                            <constraint firstItem="Zay-gO-LGV" firstAttribute="leading" secondItem="W35-2c-dRF" secondAttribute="leading" constant="100" id="JDa-tf-MVF"/>
+                            <constraint firstItem="vrX-QS-Dxr" firstAttribute="top" secondItem="Zay-gO-LGV" secondAttribute="bottom" constant="100" id="T2J-rV-xeh"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FyQ-Bh-bVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708.5" y="227.32394366197184"/>
+        </scene>
+    </scenes>
+</document>
