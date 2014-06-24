@@ -31,6 +31,7 @@
 		9CFD84511959FC53007B7D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84441959FC53007B7D81 /* Images.xcassets */; };
 		9CFD8460195A0197007B7D81 /* UIColor+PVMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD845D195A0197007B7D81 /* UIColor+PVMCategory.m */; };
 		9CFD8461195A0197007B7D81 /* UIFont+PVMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD845F195A0197007B7D81 /* UIFont+PVMCategory.m */; };
+		9CFD8465195A0861007B7D81 /* color_platte.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD8464195A0861007B7D81 /* color_platte.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		9CFD845F195A0197007B7D81 /* UIFont+PVMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PVMCategory.m"; sourceTree = "<group>"; };
 		9CFD8462195A021E007B7D81 /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
 		9CFD8463195A027A007B7D81 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9CFD8464195A0861007B7D81 /* color_platte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_platte.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 		9CFD84361959FC53007B7D81 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9CFD8464195A0861007B7D81 /* color_platte.png */,
 				9CFD84371959FC53007B7D81 /* Font */,
 				9CFD84441959FC53007B7D81 /* Images.xcassets */,
 			);
@@ -331,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CFD844C1959FC53007B7D81 /* SourceSansPro-Light.otf in Resources */,
+				9CFD8465195A0861007B7D81 /* color_platte.png in Resources */,
 				9CFD84461959FC53007B7D81 /* SourceSansPro-BlackIt.otf in Resources */,
 				9CFD84481959FC53007B7D81 /* SourceSansPro-BoldIt.otf in Resources */,
 				9CFD84501959FC53007B7D81 /* SourceSansPro-SemiboldIt.otf in Resources */,
