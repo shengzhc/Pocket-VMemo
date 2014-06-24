@@ -10,13 +10,27 @@
 		749B0E299F3E484183C92516 /* libPods-Pocket VMemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 304406D523864410BF1B511D /* libPods-Pocket VMemo.a */; };
 		9C1101671950C521003E09C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1101631950C521003E09C9 /* AppDelegate.m */; };
 		9C1101691950C521003E09C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1101651950C521003E09C9 /* main.m */; };
-		9CC38EA0195007DA00616FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC38E9F195007DA00616FB2 /* Images.xcassets */; };
 		9CC38EAC195007DA00616FB2 /* Pocket_VMemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC38EAB195007DA00616FB2 /* Pocket_VMemoTests.m */; };
 		9CC38EBC1950126500616FB2 /* libFlurry_5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBB1950126500616FB2 /* libFlurry_5.1.0.a */; };
 		9CC38EBE195012A800616FB2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */; };
 		9CC38EC0195012BA00616FB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBF195012BA00616FB2 /* Security.framework */; };
 		9CD210C8195934BB00EE2CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD210C7195934BB00EE2CED /* Main.storyboard */; };
 		9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */; };
+		9CFD84451959FC53007B7D81 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */; };
+		9CFD84461959FC53007B7D81 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */; };
+		9CFD84471959FC53007B7D81 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */; };
+		9CFD84481959FC53007B7D81 /* SourceSansPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843B1959FC53007B7D81 /* SourceSansPro-BoldIt.otf */; };
+		9CFD84491959FC53007B7D81 /* SourceSansPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843C1959FC53007B7D81 /* SourceSansPro-ExtraLight.otf */; };
+		9CFD844A1959FC53007B7D81 /* SourceSansPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843D1959FC53007B7D81 /* SourceSansPro-ExtraLightIt.otf */; };
+		9CFD844B1959FC53007B7D81 /* SourceSansPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843E1959FC53007B7D81 /* SourceSansPro-It.otf */; };
+		9CFD844C1959FC53007B7D81 /* SourceSansPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843F1959FC53007B7D81 /* SourceSansPro-Light.otf */; };
+		9CFD844D1959FC53007B7D81 /* SourceSansPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84401959FC53007B7D81 /* SourceSansPro-LightIt.otf */; };
+		9CFD844E1959FC53007B7D81 /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84411959FC53007B7D81 /* SourceSansPro-Regular.otf */; };
+		9CFD844F1959FC53007B7D81 /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84421959FC53007B7D81 /* SourceSansPro-Semibold.otf */; };
+		9CFD84501959FC53007B7D81 /* SourceSansPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84431959FC53007B7D81 /* SourceSansPro-SemiboldIt.otf */; };
+		9CFD84511959FC53007B7D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84441959FC53007B7D81 /* Images.xcassets */; };
+		9CFD8460195A0197007B7D81 /* UIColor+PVMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD845D195A0197007B7D81 /* UIColor+PVMCategory.m */; };
+		9CFD8461195A0197007B7D81 /* UIFont+PVMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD845F195A0197007B7D81 /* UIFont+PVMCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +51,6 @@
 		9C1101641950C521003E09C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1101651950C521003E09C9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CC38E95195007DA00616FB2 /* Pocket VMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket VMemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CC38E9F195007DA00616FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9CC38EA5195007DA00616FB2 /* Pocket VMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket VMemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC38EAA195007DA00616FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC38EAB195007DA00616FB2 /* Pocket_VMemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pocket_VMemoTests.m; sourceTree = "<group>"; };
@@ -47,6 +60,25 @@
 		9CC38EBF195012BA00616FB2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9CD210C7195934BB00EE2CED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9CD210CB195947FA00EE2CED /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
+		9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
+		9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
+		9CFD843B1959FC53007B7D81 /* SourceSansPro-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BoldIt.otf"; sourceTree = "<group>"; };
+		9CFD843C1959FC53007B7D81 /* SourceSansPro-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.otf"; sourceTree = "<group>"; };
+		9CFD843D1959FC53007B7D81 /* SourceSansPro-ExtraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLightIt.otf"; sourceTree = "<group>"; };
+		9CFD843E1959FC53007B7D81 /* SourceSansPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-It.otf"; sourceTree = "<group>"; };
+		9CFD843F1959FC53007B7D81 /* SourceSansPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.otf"; sourceTree = "<group>"; };
+		9CFD84401959FC53007B7D81 /* SourceSansPro-LightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-LightIt.otf"; sourceTree = "<group>"; };
+		9CFD84411959FC53007B7D81 /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		9CFD84421959FC53007B7D81 /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		9CFD84431959FC53007B7D81 /* SourceSansPro-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-SemiboldIt.otf"; sourceTree = "<group>"; };
+		9CFD84441959FC53007B7D81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CFD845C195A0197007B7D81 /* UIColor+PVMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PVMCategory.h"; sourceTree = "<group>"; };
+		9CFD845D195A0197007B7D81 /* UIColor+PVMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PVMCategory.m"; sourceTree = "<group>"; };
+		9CFD845E195A0197007B7D81 /* UIFont+PVMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PVMCategory.h"; sourceTree = "<group>"; };
+		9CFD845F195A0197007B7D81 /* UIFont+PVMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PVMCategory.m"; sourceTree = "<group>"; };
+		9CFD8462195A021E007B7D81 /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		9CFD8463195A027A007B7D81 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +120,7 @@
 				9C1101631950C521003E09C9 /* AppDelegate.m */,
 				9C1101641950C521003E09C9 /* Info.plist */,
 				9C1101651950C521003E09C9 /* main.m */,
+				9CFD8463195A027A007B7D81 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,10 +149,11 @@
 		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
 			isa = PBXGroup;
 			children = (
+				9CFD845B195A0197007B7D81 /* Categories */,
+				9CFD84361959FC53007B7D81 /* Resources */,
 				9CD210C9195947D800EE2CED /* CoreData */,
 				9CD210C6195934B200EE2CED /* Storyboards */,
 				9C1101611950C521003E09C9 /* Supporting Files */,
-				9CC38E9F195007DA00616FB2 /* Images.xcassets */,
 			);
 			path = "Pocket VMemo";
 			sourceTree = "<group>";
@@ -172,6 +206,46 @@
 				9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9CFD84361959FC53007B7D81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD84371959FC53007B7D81 /* Font */,
+				9CFD84441959FC53007B7D81 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9CFD84371959FC53007B7D81 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */,
+				9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */,
+				9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */,
+				9CFD843B1959FC53007B7D81 /* SourceSansPro-BoldIt.otf */,
+				9CFD843C1959FC53007B7D81 /* SourceSansPro-ExtraLight.otf */,
+				9CFD843D1959FC53007B7D81 /* SourceSansPro-ExtraLightIt.otf */,
+				9CFD843E1959FC53007B7D81 /* SourceSansPro-It.otf */,
+				9CFD843F1959FC53007B7D81 /* SourceSansPro-Light.otf */,
+				9CFD84401959FC53007B7D81 /* SourceSansPro-LightIt.otf */,
+				9CFD84411959FC53007B7D81 /* SourceSansPro-Regular.otf */,
+				9CFD84421959FC53007B7D81 /* SourceSansPro-Semibold.otf */,
+				9CFD84431959FC53007B7D81 /* SourceSansPro-SemiboldIt.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9CFD845B195A0197007B7D81 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9CFD845C195A0197007B7D81 /* UIColor+PVMCategory.h */,
+				9CFD845D195A0197007B7D81 /* UIColor+PVMCategory.m */,
+				9CFD845E195A0197007B7D81 /* UIFont+PVMCategory.h */,
+				9CFD845F195A0197007B7D81 /* UIFont+PVMCategory.m */,
+				9CFD8462195A021E007B7D81 /* CategoryHeader.h */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +330,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC38EA0195007DA00616FB2 /* Images.xcassets in Resources */,
+				9CFD844C1959FC53007B7D81 /* SourceSansPro-Light.otf in Resources */,
+				9CFD84461959FC53007B7D81 /* SourceSansPro-BlackIt.otf in Resources */,
+				9CFD84481959FC53007B7D81 /* SourceSansPro-BoldIt.otf in Resources */,
+				9CFD84501959FC53007B7D81 /* SourceSansPro-SemiboldIt.otf in Resources */,
 				9CD210C8195934BB00EE2CED /* Main.storyboard in Resources */,
+				9CFD844F1959FC53007B7D81 /* SourceSansPro-Semibold.otf in Resources */,
+				9CFD84471959FC53007B7D81 /* SourceSansPro-Bold.otf in Resources */,
+				9CFD844D1959FC53007B7D81 /* SourceSansPro-LightIt.otf in Resources */,
+				9CFD844E1959FC53007B7D81 /* SourceSansPro-Regular.otf in Resources */,
+				9CFD84511959FC53007B7D81 /* Images.xcassets in Resources */,
+				9CFD844B1959FC53007B7D81 /* SourceSansPro-It.otf in Resources */,
+				9CFD844A1959FC53007B7D81 /* SourceSansPro-ExtraLightIt.otf in Resources */,
+				9CFD84451959FC53007B7D81 /* SourceSansPro-Black.otf in Resources */,
+				9CFD84491959FC53007B7D81 /* SourceSansPro-ExtraLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +394,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFD8461195A0197007B7D81 /* UIFont+PVMCategory.m in Sources */,
 				9C1101691950C521003E09C9 /* main.m in Sources */,
+				9CFD8460195A0197007B7D81 /* UIColor+PVMCategory.m in Sources */,
 				9C1101671950C521003E09C9 /* AppDelegate.m in Sources */,
 				9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */,
 			);
@@ -419,6 +507,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Pocket VMemo/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "Pocket VMemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -438,6 +527,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "Pocket VMemo/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "Pocket VMemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
