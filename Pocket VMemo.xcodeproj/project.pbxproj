@@ -16,6 +16,7 @@
 		9CC38EC0195012BA00616FB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC38EBF195012BA00616FB2 /* Security.framework */; };
 		9CD210C8195934BB00EE2CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD210C7195934BB00EE2CED /* Main.storyboard */; };
 		9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */; };
+		9CFAC051195B6E880052ACFF /* PVMFlagColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC050195B6E880052ACFF /* PVMFlagColorHelper.m */; };
 		9CFD84451959FC53007B7D81 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */; };
 		9CFD84461959FC53007B7D81 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */; };
 		9CFD84471959FC53007B7D81 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */; };
@@ -61,6 +62,8 @@
 		9CC38EBF195012BA00616FB2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9CD210C7195934BB00EE2CED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9CD210CB195947FA00EE2CED /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9CFAC04F195B6E880052ACFF /* PVMFlagColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMFlagColorHelper.h; sourceTree = "<group>"; };
+		9CFAC050195B6E880052ACFF /* PVMFlagColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMFlagColorHelper.m; sourceTree = "<group>"; };
 		9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
 		9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
 		9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
@@ -151,6 +154,7 @@
 		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
 			isa = PBXGroup;
 			children = (
+				9CFAC04B195B6D6E0052ACFF /* Helper */,
 				9CFD845B195A0197007B7D81 /* Categories */,
 				9CFD84361959FC53007B7D81 /* Resources */,
 				9CD210C9195947D800EE2CED /* CoreData */,
@@ -208,6 +212,15 @@
 				9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		9CFAC04B195B6D6E0052ACFF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9CFAC04F195B6E880052ACFF /* PVMFlagColorHelper.h */,
+				9CFAC050195B6E880052ACFF /* PVMFlagColorHelper.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		9CFD84361959FC53007B7D81 /* Resources */ = {
@@ -399,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CFD8461195A0197007B7D81 /* UIFont+PVMCategory.m in Sources */,
+				9CFAC051195B6E880052ACFF /* PVMFlagColorHelper.m in Sources */,
 				9C1101691950C521003E09C9 /* main.m in Sources */,
 				9CFD8460195A0197007B7D81 /* UIColor+PVMCategory.m in Sources */,
 				9C1101671950C521003E09C9 /* AppDelegate.m in Sources */,
