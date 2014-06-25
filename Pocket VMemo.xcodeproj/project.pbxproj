@@ -17,6 +17,10 @@
 		9CD210C8195934BB00EE2CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD210C7195934BB00EE2CED /* Main.storyboard */; };
 		9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CD210CA195947FA00EE2CED /* Model.xcdatamodeld */; };
 		9CFAC051195B6E880052ACFF /* PVMFlagColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC050195B6E880052ACFF /* PVMFlagColorHelper.m */; };
+		9CFAC055195B7A730052ACFF /* PVMRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC054195B7A730052ACFF /* PVMRecorder.m */; };
+		9CFAC058195B7A7A0052ACFF /* PVMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC057195B7A7A0052ACFF /* PVMPlayer.m */; };
+		9CFAC05A195B81B60052ACFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFAC059195B81B60052ACFF /* AVFoundation.framework */; };
+		9CFAC05D195B83970052ACFF /* PVMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC05C195B83970052ACFF /* PVMFileManager.m */; };
 		9CFD84451959FC53007B7D81 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */; };
 		9CFD84461959FC53007B7D81 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */; };
 		9CFD84471959FC53007B7D81 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */; };
@@ -64,6 +68,14 @@
 		9CD210CB195947FA00EE2CED /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		9CFAC04F195B6E880052ACFF /* PVMFlagColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMFlagColorHelper.h; sourceTree = "<group>"; };
 		9CFAC050195B6E880052ACFF /* PVMFlagColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMFlagColorHelper.m; sourceTree = "<group>"; };
+		9CFAC052195B71CE0052ACFF /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		9CFAC053195B7A730052ACFF /* PVMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMRecorder.h; sourceTree = "<group>"; };
+		9CFAC054195B7A730052ACFF /* PVMRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMRecorder.m; sourceTree = "<group>"; };
+		9CFAC056195B7A7A0052ACFF /* PVMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMPlayer.h; sourceTree = "<group>"; };
+		9CFAC057195B7A7A0052ACFF /* PVMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMPlayer.m; sourceTree = "<group>"; };
+		9CFAC059195B81B60052ACFF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9CFAC05B195B83970052ACFF /* PVMFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMFileManager.h; sourceTree = "<group>"; };
+		9CFAC05C195B83970052ACFF /* PVMFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMFileManager.m; sourceTree = "<group>"; };
 		9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
 		9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
 		9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
@@ -91,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CFAC05A195B81B60052ACFF /* AVFoundation.framework in Frameworks */,
 				9CC38EC0195012BA00616FB2 /* Security.framework in Frameworks */,
 				9CC38EBE195012A800616FB2 /* SystemConfiguration.framework in Frameworks */,
 				9CC38EBC1950126500616FB2 /* libFlurry_5.1.0.a in Frameworks */,
@@ -111,6 +124,7 @@
 		855E1DD4E74E4ED786F50463 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CFAC059195B81B60052ACFF /* AVFoundation.framework */,
 				9CC38EBF195012BA00616FB2 /* Security.framework */,
 				9CC38EBD195012A800616FB2 /* SystemConfiguration.framework */,
 				304406D523864410BF1B511D /* libPods-Pocket VMemo.a */,
@@ -219,6 +233,13 @@
 			children = (
 				9CFAC04F195B6E880052ACFF /* PVMFlagColorHelper.h */,
 				9CFAC050195B6E880052ACFF /* PVMFlagColorHelper.m */,
+				9CFAC052195B71CE0052ACFF /* Helper.h */,
+				9CFAC053195B7A730052ACFF /* PVMRecorder.h */,
+				9CFAC054195B7A730052ACFF /* PVMRecorder.m */,
+				9CFAC056195B7A7A0052ACFF /* PVMPlayer.h */,
+				9CFAC057195B7A7A0052ACFF /* PVMPlayer.m */,
+				9CFAC05B195B83970052ACFF /* PVMFileManager.h */,
+				9CFAC05C195B83970052ACFF /* PVMFileManager.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -412,10 +433,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CFD8461195A0197007B7D81 /* UIFont+PVMCategory.m in Sources */,
+				9CFAC055195B7A730052ACFF /* PVMRecorder.m in Sources */,
 				9CFAC051195B6E880052ACFF /* PVMFlagColorHelper.m in Sources */,
 				9C1101691950C521003E09C9 /* main.m in Sources */,
 				9CFD8460195A0197007B7D81 /* UIColor+PVMCategory.m in Sources */,
 				9C1101671950C521003E09C9 /* AppDelegate.m in Sources */,
+				9CFAC058195B7A7A0052ACFF /* PVMPlayer.m in Sources */,
+				9CFAC05D195B83970052ACFF /* PVMFileManager.m in Sources */,
 				9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

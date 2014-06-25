@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-#ifndef PVMFlagColors
-#define PVMFlagColors
+#ifndef PVMFlagColors_Enum
+#define PVMFlagColors_Enum
+
 typedef enum : NSUInteger {
     kFlagColorBambo = 1 << 0,
     kFlagColorWave = 1 << 1,
@@ -19,6 +20,7 @@ typedef enum : NSUInteger {
     kFlagColorJade = 1 << 5,
     kFlagColorFuji = 1 << 6
 } PVMFlagColorsType;
+
 #endif
 
 @interface PVMFlagColorHelper : NSObject

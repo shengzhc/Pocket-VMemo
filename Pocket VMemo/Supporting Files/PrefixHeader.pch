@@ -10,7 +10,9 @@
 #define Pocket_VMemo_PrefixHeader_pch
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 #import "CategoryHeader.h"
+#import "Helper.h"
 
 #endif
