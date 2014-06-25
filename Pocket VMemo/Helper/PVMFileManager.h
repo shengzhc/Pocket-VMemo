@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface PVMFileManager : NSObject
-
++ (PVMFileManager *)defaultManager;
++ (NSString *)getUniqueFilePath;
 @end

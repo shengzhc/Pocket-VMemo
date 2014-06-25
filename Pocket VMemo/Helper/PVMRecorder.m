@@ -8,8 +8,6 @@
 
 #import "PVMRecorder.h"
 
-#define <#macro#>
-
 @interface PVMRecorder ()
 @property (strong, nonatomic) AVAudioRecorder *recorder;
 @end
@@ -60,20 +58,5 @@
     
 }
 
-+ (NSString *)getUniqueFilenameInFolder:(NSString *)folder forFileExtension:(NSString *)fileExtension
-{
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSArray *existingFiles = [fileManager contentsOfDirectoryAtPath:folder error:nil];
-    NSString *uniqueFilename;
-    
-    do {
-        CFUUIDRef newUniqueId = CFUUIDCreate(kCFAllocatorDefault);
-        CFStringRef newUniqueIdString = CFUUIDCreateString(kCFAllocatorDefault, newUniqueId);
-        uniqueFilename = [[folder stringByAppendingPathComponent:(NSString *)newUniqueIdString] stringByAppendingPathExtension:fileExtension];
-        CFRelease(newUniqueId);
-        CFRelease(newUniqueIdString);
-    } while ([existingFiles containsObject:uniqueFilename]);
-    return uniqueFilename;
-}
 
 @end

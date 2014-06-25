@@ -10,5 +10,8 @@
 #define Helper_H_
 
 #import "PVMFlagColorHelper.h"
+#import "PVMFileManager.h"
+#import "PVMPlayer.h"
+#import "PVMRecorder.h"
 
 #endif
