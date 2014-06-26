@@ -9,7 +9,7 @@
 #import "PVMFileManager.h"
 
 #define SOUND_FILE_FOLDER @"Sounds"
-#define SOUND_FILE_EXTENSION @"m4a"
+#define SOUND_FILE_EXTENSION @"mp3"
 
 @interface PVMFileManager ()
 @property (strong, nonatomic) NSString *folderPath;
