@@ -21,6 +21,7 @@
 		9CFAC058195B7A7A0052ACFF /* PVMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC057195B7A7A0052ACFF /* PVMPlayer.m */; };
 		9CFAC05A195B81B60052ACFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CFAC059195B81B60052ACFF /* AVFoundation.framework */; };
 		9CFAC05D195B83970052ACFF /* PVMFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC05C195B83970052ACFF /* PVMFileManager.m */; };
+		9CFAC062195BED8C0052ACFF /* PVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFAC061195BED8C0052ACFF /* PVMViewController.m */; };
 		9CFD84451959FC53007B7D81 /* SourceSansPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */; };
 		9CFD84461959FC53007B7D81 /* SourceSansPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */; };
 		9CFD84471959FC53007B7D81 /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */; };
@@ -76,6 +77,8 @@
 		9CFAC059195B81B60052ACFF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9CFAC05B195B83970052ACFF /* PVMFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMFileManager.h; sourceTree = "<group>"; };
 		9CFAC05C195B83970052ACFF /* PVMFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMFileManager.m; sourceTree = "<group>"; };
+		9CFAC060195BED8C0052ACFF /* PVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMViewController.h; sourceTree = "<group>"; };
+		9CFAC061195BED8C0052ACFF /* PVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMViewController.m; sourceTree = "<group>"; };
 		9CFD84381959FC53007B7D81 /* SourceSansPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.otf"; sourceTree = "<group>"; };
 		9CFD84391959FC53007B7D81 /* SourceSansPro-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-BlackIt.otf"; sourceTree = "<group>"; };
 		9CFD843A1959FC53007B7D81 /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 		9CC38E97195007DA00616FB2 /* Pocket VMemo */ = {
 			isa = PBXGroup;
 			children = (
+				9CFAC05E195BED7E0052ACFF /* Controllers */,
+				9CFAC05F195BED7E0052ACFF /* Views */,
 				9CFAC04B195B6D6E0052ACFF /* Helper */,
 				9CFD845B195A0197007B7D81 /* Categories */,
 				9CFD84361959FC53007B7D81 /* Resources */,
@@ -242,6 +247,22 @@
 				9CFAC05C195B83970052ACFF /* PVMFileManager.m */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		9CFAC05E195BED7E0052ACFF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CFAC060195BED8C0052ACFF /* PVMViewController.h */,
+				9CFAC061195BED8C0052ACFF /* PVMViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9CFAC05F195BED7E0052ACFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		9CFD84361959FC53007B7D81 /* Resources */ = {
@@ -438,6 +459,7 @@
 				9C1101691950C521003E09C9 /* main.m in Sources */,
 				9CFD8460195A0197007B7D81 /* UIColor+PVMCategory.m in Sources */,
 				9C1101671950C521003E09C9 /* AppDelegate.m in Sources */,
+				9CFAC062195BED8C0052ACFF /* PVMViewController.m in Sources */,
 				9CFAC058195B7A7A0052ACFF /* PVMPlayer.m in Sources */,
 				9CFAC05D195B83970052ACFF /* PVMFileManager.m in Sources */,
 				9CD210CC195947FA00EE2CED /* Model.xcdatamodeld in Sources */,

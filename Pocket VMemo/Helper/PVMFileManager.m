@@ -9,7 +9,7 @@
 #import "PVMFileManager.h"
 
 #define SOUND_FILE_FOLDER @"Sounds"
-#define SOUND_FILE_EXTENSION @"mp3"
+#define SOUND_FILE_EXTENSION @"aac"
 
 @interface PVMFileManager ()
 @property (strong, nonatomic) NSString *folderPath;
@@ -34,6 +34,10 @@
     dispatch_once(&onceToken, ^{
         NSString *applicationDocumentsDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
         folderPath = [applicationDocumentsDirectory stringByAppendingPathComponent:SOUND_FILE_FOLDER];
+        NSFileManager *fileManager = [NSFileManager defaultManager];
+        if (![fileManager fileExistsAtPath:folderPath]) {
+            [fileManager createDirectoryAtPath:folderPath withIntermediateDirectories:YES attributes:nil error:nil];
+        }
     });
     return folderPath;
 }

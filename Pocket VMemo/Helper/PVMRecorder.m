@@ -43,11 +43,12 @@
 {
     [self stop];
     _isRecording = YES;
-    NSDictionary *recordSettings = @{AVSampleRateKey : @(32000.0), AVFormatIDKey : @(kAudioFormatMPEGLayer3), AVNumberOfChannelsKey : @(1), AVEncoderAudioQualityKey : @(AVAudioQualityMax)};
+    NSDictionary *recordSettings = @{AVSampleRateKey : @(44100.0), AVFormatIDKey : @(kAudioFormatMPEG4AAC), AVNumberOfChannelsKey : @(1), AVEncoderAudioQualityKey : @(AVAudioQualityMax)};
     NSURL *filePath = [NSURL URLWithString:[PVMFileManager getUniqueFilePath]];
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryRecord error:nil];
     [[AVAudioSession sharedInstance] setActive:YES error:nil];
-    self.recorder = [[AVAudioRecorder alloc] initWithURL:filePath settings:recordSettings error:nil];
+    NSError *error;
+    self.recorder = [[AVAudioRecorder alloc] initWithURL:filePath settings:recordSettings error:&error];
     self.recorder.delegate = self;
     [self.recorder prepareToRecord];
     [self.recorder record];
