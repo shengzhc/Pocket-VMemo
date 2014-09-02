@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D09C2E5D2D8478D869F7F52"
+               BlueprintIdentifier = "692EE66912F3467B92159DDE"
                BuildableName = "libPods-Pocket VMemo-GPUImage.a"
                BlueprintName = "Pods-Pocket VMemo-GPUImage"
                ReferencedContainer = "container:Pods.xcodeproj">

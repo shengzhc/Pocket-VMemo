@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "503418422F7C42EBA1282FF3"
+               BlueprintIdentifier = "808E6BA10C504FE68E5E091D"
                BuildableName = "libPods-Pocket VMemo-Masonry.a"
                BlueprintName = "Pods-Pocket VMemo-Masonry"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -10,29 +10,29 @@
 	<string>Pocket VMemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0B7D32E3-07EF-4B89-83DF-44E299F4C13A</key>
+		<key>7B6218970638339D8D02FC55BD85669EB7072325</key>
 		<string>https://github.com/shengzhc/Pocket-VMemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Pocket VMemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0B7D32E3-07EF-4B89-83DF-44E299F4C13A</key>
+		<key>7B6218970638339D8D02FC55BD85669EB7072325</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/shengzhc/Pocket-VMemo.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0B7D32E3-07EF-4B89-83DF-44E299F4C13A</string>
+	<string>7B6218970638339D8D02FC55BD85669EB7072325</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0B7D32E3-07EF-4B89-83DF-44E299F4C13A</string>
+			<string>7B6218970638339D8D02FC55BD85669EB7072325</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Pocket-VMemo</string>
 		</dict>

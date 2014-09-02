@@ -20,14 +20,18 @@ PODS:
   - AFNetworking/UIKit (2.3.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CocoaLumberjack (1.9.0):
-    - CocoaLumberjack/Extensions
-  - CocoaLumberjack/Core (1.9.0)
-  - CocoaLumberjack/Extensions (1.9.0):
+  - CocoaLumberjack (2.0.0-beta):
+    - CocoaLumberjack/CLI
     - CocoaLumberjack/Core
-  - GPUImage (0.1.4)
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/CLI (2.0.0-beta):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Core (2.0.0-beta)
+  - CocoaLumberjack/Extensions (2.0.0-beta):
+    - CocoaLumberjack/Core
+  - GPUImage (0.1.5)
   - MagicalRecord (2.2)
-  - Masonry (0.5.2)
+  - Masonry (0.5.3)
 
 DEPENDENCIES:
   - AFNetworking
@@ -38,9 +42,9 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
-  CocoaLumberjack: 5766cdd1d0a24bcf15a133c6023747346bf786dd
-  GPUImage: ac2bde5f4dbea02a81ced6313964cec1f2043ca9
+  CocoaLumberjack: aadc76d7bd6c839ca84b38ed50cbf89d7cf8c693
+  GPUImage: 5114a47f5fc33eb312f3731550a3cea379416d04
   MagicalRecord: b1fc46c99a9749fe7fe7e6f43a89b62ef5201933
-  Masonry: ec0189e1a07af00913e4a1a335ea76887adc86e1
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
 
 COCOAPODS: 0.33.1
